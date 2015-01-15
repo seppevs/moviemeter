@@ -119,7 +119,7 @@ moviemeter.system_methodSignature(methodName, callback)
 
 (The MIT License)
 
-Copyright (c) by Tolga Tezel <tolgatezel11@gmail.com>
+Copyright (c) by Sebastian Van Sande <sebastian@vansande.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
