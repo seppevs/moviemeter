@@ -1,6 +1,6 @@
 {
   "name": "moviemeter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple wrapper for the moviemeter.nl API",
   "main": "moviemeter.js",
   "dependencies": {
