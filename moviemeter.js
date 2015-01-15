@@ -33,7 +33,7 @@ exports.api_startSession = function (apiKey, callback) {
 };
 
 exports.api_closeSession = function (sessionKey, callback) {
-    doCall("api.stopSession", [sessionKey], callback);
+    doCall("api.closeSession", [sessionKey], callback);
 };
 
 

@@ -1,0 +1,32 @@
+{
+  "name": "moviemeter",
+  "version": "1.0.1",
+  "description": "A simple wrapper for the moviemeter.nl API",
+  "main": "moviemeter.js",
+  "dependencies": {
+    "xmlrpc": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seppevs/moviemeter.git"
+  },
+  "keywords": [
+    "moviemeter",
+    "movies",
+    "dutch",
+    "api",
+    "webservice",
+    "wrapper",
+    "module"
+  ],
+  "author": "Sebastian Van Sande <sebastian@vansande.org> (http://vansande.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seppevs/moviemeter/issues"
+  },
+  "homepage": "https://github.com/seppevs/moviemeter"
+}
