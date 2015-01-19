@@ -93,7 +93,7 @@ moviemeter.director_search(sessionkey, search, callback)
 moviemeter.director_retrieveDetails(sessionkey, directorId, callback)
 
 // returns array with director's films
-moviemeter.director_retrieveFilms(sessionkey, directorId, callback) 
+moviemeter.director_retrieveFilms(sessionkey, directorId, callback)
 
 // returns array with information 
 // and base64 encoded contents of director image (if exists) and its thumbnail

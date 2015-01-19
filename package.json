@@ -2,18 +2,6 @@
   "name": "moviemeter",
   "version": "1.0.2",
   "description": "A simple wrapper for the moviemeter.nl API",
-  "main": "moviemeter.js",
-  "dependencies": {
-    "xmlrpc": "^1.3.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/seppevs/moviemeter.git"
-  },
   "keywords": [
     "moviemeter",
     "movies",
@@ -28,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/seppevs/moviemeter/issues"
   },
-  "homepage": "https://github.com/seppevs/moviemeter"
+  "homepage": "https://github.com/seppevs/moviemeter",
+  "main": "./lib/moviemeter.js",
+  "dependencies": {
+    "xmlrpc": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "proxyquire": "^1.3.1",
+    "sinon": "^1.12.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/* -t 70000 -R spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seppevs/moviemeter.git"
+  }
 }
