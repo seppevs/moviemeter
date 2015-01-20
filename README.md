@@ -113,6 +113,9 @@ moviemeter.system_methodSignature(methodName, callback)
 
 ```
 
+## Build status
+<img src="https://api.travis-ci.org/seppevs/moviemeter.svg" />
+
 -------
 
 ## License
