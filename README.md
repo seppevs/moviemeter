@@ -1,6 +1,8 @@
 #moviemeter
 A node wrapper module for the [Moviemeter.nl](http://moviemeter.nl) [API](http://wiki.moviemeter.nl/index.php/API).
 
+[![Build Status](http://img.shields.io/travis/seppevs/moviemeter.svg?style=flat)](https://travis-ci.org/seppevs/moviemeter) [![NPM](http://img.shields.io/npm/v/moviemeter.svg?style=flat)](https://www.npmjs.org/package/moviemeter) [![Downloads](http://img.shields.io/npm/dm/moviemeter.svg?style=flat)](https://www.npmjs.org/package/moviemeter) [![Coveralls](http://img.shields.io/coveralls/seppevs/moviemeter.svg?style=flat)](https://coveralls.io/r/seppevs/moviemeter)
+
 ##Installing
 ```javascript
 npm install moviemeter
@@ -112,9 +114,6 @@ moviemeter.system_methodHelp(methodName, callback)
 moviemeter.system_methodSignature(methodName, callback)
 
 ```
-
-## Build status
-<img src="https://api.travis-ci.org/seppevs/moviemeter.svg" />
 
 -------
 
